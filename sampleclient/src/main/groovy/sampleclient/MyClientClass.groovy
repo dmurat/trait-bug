@@ -6,7 +6,7 @@ import sample.MyTrait
 @CompileStatic
 class MyClientClass implements MyTrait {
   Integer myMethod() {
-    myInteger()
+    myInteger()  // <---- marked red as an error
   }
 
   public static void main(String[] args) {
